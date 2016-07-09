@@ -1,0 +1,44 @@
+body {
+	background-color: #34495E;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#wiki-search {
+	max-width: 300px;
+	display: flex;
+	margin: auto;
+	margin: 8% auto auto auto;
+}
+
+#search-value {
+	outline: 0;
+	flex: 1;
+	padding: 0px;
+	border: none;
+	padding: 10px;
+}
+
+#search-button {
+	border: none;
+	background-color: white;
+	padding: 10px;
+	outline: 0;
+}
+
+#random-article {
+	display: block;
+	margin: auto;
+	max-width: 100px;
+	margin-top: 10px;
+	background-color: white;
+	border-radius: 0;
+}
+
+.result-containers {
+	margin: 30px 0;
+	padding: 10px;
+	background-color: white;
+}
