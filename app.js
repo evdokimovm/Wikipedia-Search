@@ -3,6 +3,10 @@ $(document).ready(function() {
 		getResults()
 	})
 
+	$('#random-button').click(function() {
+		window.open('https://en.wikipedia.org/wiki/Special:Random', '_blank')
+	})
+
 	$('#search-value').keypress(function(e) {
 		if (e.which === 13) {
 			getResults()
